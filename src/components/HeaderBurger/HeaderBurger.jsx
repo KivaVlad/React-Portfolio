@@ -15,8 +15,8 @@ export const HeaderBurger = () => {
             <div  className={`header_nav ${activeState && 'header_nav_active'}`}>
                 <div className="header_links">
                     <NavLink to="/" onClick={() => setActiveState(activeState = !activeState)} className="header_link">Главная</NavLink>
-                    <NavLink to="about" onClick={() => setActiveState(activeState = !activeState)} className="header_link">Обо мне</NavLink>
-                    <NavLink to="" onClick={() => setActiveState(activeState = !activeState)} className="header_link">Проекты</NavLink>
+                    <NavLink to="/about" onClick={() => setActiveState(activeState = !activeState)} className="header_link">Обо мне</NavLink>
+                    <NavLink to="/projects" onClick={() => setActiveState(activeState = !activeState)} className="header_link">Проекты</NavLink>
                     <NavLink to="" onClick={() => setActiveState(activeState = !activeState)} className="header_link">Контакты</NavLink>
                 </div>
                 <div onClick={() => setActiveState(activeState = !activeState)} className='header_nav_close'>

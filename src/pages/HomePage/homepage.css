@@ -57,14 +57,10 @@
     border: none;
     cursor: pointer;
     color: hsl(225, 33%, 95%);
+    border: none;
     background-color: #102327;
     padding: 18px 50px;
     border-radius: 30px;
-    transition: .2s ease;
-}
-
-.home_button:hover {
-    transform: scale(1.05);
 }
 
 .home_right_section {

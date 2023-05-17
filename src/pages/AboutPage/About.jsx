@@ -36,7 +36,7 @@ const About = () => {
                     <div className="home_left_section_header_logo">Портфолио</div>
                     <div className="about_left_section_header_nav">
                         <Link to="/" className="about_left_section_header_nav_item">Главная</Link>
-                        <Link to="" className="about_left_section_header_nav_item">Проекты</Link>
+                        <Link to="/projects" className="about_left_section_header_nav_item">Проекты</Link>
                         <Link to="" className="about_left_section_header_nav_item">Контакты</Link>
                     </div>
                     <div className="about_left_section_header_burger">
