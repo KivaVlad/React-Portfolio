@@ -350,6 +350,10 @@
 }
 
 @media screen and (max-width: 600px) {
+    .projects_main {
+        margin-top: 40px;
+    }
+
     .projects_card_text {
         height: 50%;
     }
@@ -397,6 +401,7 @@
 
     .projects_js_title {
         font-size: 22px;
+        width: 220px;
     }
 
     .projects_card_title {
