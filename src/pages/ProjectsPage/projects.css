@@ -379,6 +379,15 @@
     .projects_footer_icon {
         width: 25px;
     }
+
+    .projects_wrapper_cards_first {
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .projects_wrapper_cards_second {
+        gap: 10px;
+    }
 }
 
 @media screen and (max-width: 450px) {
