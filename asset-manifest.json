@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.e03d7e55.css",
-    "main.js": "/React-Portfolio/static/js/main.f1ec2c76.js",
+    "main.css": "/React-Portfolio/static/css/main.24b6a4f3.css",
+    "main.js": "/React-Portfolio/static/js/main.d14254bc.js",
     "static/media/photo_1.jpg": "/React-Portfolio/static/media/photo_1.064c61c0eff03cb5baee.jpg",
     "static/media/photo.jpg": "/React-Portfolio/static/media/photo.e09e90d8d16ec2bafa59.jpg",
     "static/media/photo_11.jpg": "/React-Portfolio/static/media/photo_11.8bf8018f51ee766017e0.jpg",
@@ -20,13 +20,23 @@
     "static/media/photo_6.jpg": "/React-Portfolio/static/media/photo_6.968b9f5885e0115a53f4.jpg",
     "static/media/photo_12.jpg": "/React-Portfolio/static/media/photo_12.f13e9cd2f8eb1de8d73c.jpg",
     "static/media/photo_8.jpg": "/React-Portfolio/static/media/photo_8.54e1f678145b65fafb96.jpg",
+    "static/media/landing-2.jpg": "/React-Portfolio/static/media/landing-2.fa5e04d900c43301625f.jpg",
+    "static/media/landing-8.jpg": "/React-Portfolio/static/media/landing-8.5fec30bf7cee1c46e980.jpg",
+    "static/media/ladning-6.jpg": "/React-Portfolio/static/media/ladning-6.e231317de75ffd465ae3.jpg",
+    "static/media/landing-1.jpg": "/React-Portfolio/static/media/landing-1.2822d0e2e8ce3b633638.jpg",
+    "static/media/ladning-7.jpg": "/React-Portfolio/static/media/ladning-7.e9bdc80e59a71d127b49.jpg",
+    "static/media/ladning-4.jpg": "/React-Portfolio/static/media/ladning-4.7749f28fd7171ccbd870.jpg",
     "static/media/Ferry-Black.woff": "/React-Portfolio/static/media/Ferry-Black.fc929522c5bc436a4ca3.woff",
+    "static/media/landing-5.jpg": "/React-Portfolio/static/media/landing-5.294c016f659241501dc9.jpg",
+    "static/media/landing-10.jpg": "/React-Portfolio/static/media/landing-10.d69aea9be67084650f3b.jpg",
+    "static/media/landing-9.jpg": "/React-Portfolio/static/media/landing-9.b38cecc09179a9fd536d.jpg",
+    "static/media/landing-3.jpg": "/React-Portfolio/static/media/landing-3.ff43288be9123d4b2cfb.jpg",
     "index.html": "/React-Portfolio/index.html",
-    "main.e03d7e55.css.map": "/React-Portfolio/static/css/main.e03d7e55.css.map",
-    "main.f1ec2c76.js.map": "/React-Portfolio/static/js/main.f1ec2c76.js.map"
+    "main.24b6a4f3.css.map": "/React-Portfolio/static/css/main.24b6a4f3.css.map",
+    "main.d14254bc.js.map": "/React-Portfolio/static/js/main.d14254bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.e03d7e55.css",
-    "static/js/main.f1ec2c76.js"
+    "static/css/main.24b6a4f3.css",
+    "static/js/main.d14254bc.js"
   ]
 }
