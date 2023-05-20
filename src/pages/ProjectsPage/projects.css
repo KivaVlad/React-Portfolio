@@ -354,22 +354,41 @@
         margin-top: 40px;
     }
 
+    .projects_card_img {
+        height: 80%;
+    }
+
     .projects_card_text {
         height: 50%;
     }
 }
 
 @media screen and (max-width: 500px) {
-    .projects_card_text {
-        height: 70%;
+    .projects_wrapper_cards_first {
+        display: grid;
+        grid-template-areas: 
+        "projects_card_one"
+        "projects_card_two"
+        "projects_card_three"
+        "projects_card_four"
+        "projects_card_five";
+        gap: 12px;
+        margin-bottom: 12px;
     }
-
-    .projects_card_img {
-        height: 50%;
+    
+    .projects_wrapper_cards_second {
+        display: grid;
+        grid-template-areas: 
+        "projects_card_seven"
+        "projects_card_eight"
+        "projects_card_six"
+        "projects_card_nine"
+        "projects_card_ten";
+        gap: 12px;
     }
 
     .projects_js_card {
-        padding: 0;
+        padding: 10px 0;
     }
 
     .projects_js_card_text{
@@ -383,15 +402,6 @@
     .projects_footer_icon {
         width: 25px;
     }
-
-    .projects_wrapper_cards_first {
-        gap: 10px;
-        margin-bottom: 10px;
-    }
-
-    .projects_wrapper_cards_second {
-        gap: 10px;
-    }
 }
 
 @media screen and (max-width: 450px) {
@@ -402,20 +412,6 @@
     .projects_js_title {
         font-size: 22px;
         width: 220px;
-    }
-
-    .projects_card_title {
-        font-size: 9px;
-    }
-
-    .projects_card_subtitle {
-        font-size: 9px;
-        line-height: 14px;
-    }
-
-    .projects_card_button {
-        font-size: 9px;
-        padding: 2px 16px;
     }
 
     .projects_js_card_button {
