@@ -276,6 +276,18 @@
 }
 
 @media screen and (max-width: 550px) {
+    .contacts_main_title {
+        font-size: 26px;
+    }
+
+    .contacts_main {
+        margin-top: 40px;
+    }
+
+    .contacts_cards {
+        margin-top: 20px;
+    }
+
     .contacts_card {
         gap: 12px;
         padding: 30px 40px;
@@ -311,6 +323,7 @@
 }
 
 @media screen and (max-width: 500px) {
+
     .contacts_card {
         gap: 12px;
         padding: 20px 30px;
@@ -334,6 +347,12 @@
         img {
             width: 25px;
         }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .contacts_main_title {
+        font-size: 22px;
     }
 }
 
