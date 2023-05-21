@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { HeaderBurger } from "../../components/HeaderBurger/HeaderBurger";
 
-import css from "./projects.css";
+import "./projects.scss";
 
 import landing1 from "../../assets/images/landing-1.jpg";
 import landing2 from "../../assets/images/landing-2.jpg";
@@ -26,7 +26,7 @@ const Projects = () => {
                         <Link to="/" className="projects_nav_link">Главная</Link>
                         <Link to="/about" className="projects_nav_link">Обо мне</Link>
                         <Link to="/projects" className="projects_nav_link">Проекты</Link>
-                        <Link to="" className="projects_nav_link">Контакты</Link>
+                        <Link to="/contacts" className="projects_nav_link">Контакты</Link>
                     </div>
                     <div className="projects_nav_burger">
                         <HeaderBurger />

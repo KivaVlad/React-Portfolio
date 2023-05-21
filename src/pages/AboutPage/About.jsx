@@ -1,6 +1,6 @@
 import { HeaderBurger } from "../../components/HeaderBurger/HeaderBurger";
 import { Link } from "react-router-dom";
-import css from "./about.css";
+import "./about.scss";
 
 import image1 from "../../assets/images/photo_1.jpg";
 import image2 from "../../assets/images/photo_2.jpg";
@@ -37,7 +37,7 @@ const About = () => {
                     <div className="about_left_section_header_nav">
                         <Link to="/" className="about_left_section_header_nav_item">Главная</Link>
                         <Link to="/projects" className="about_left_section_header_nav_item">Проекты</Link>
-                        <Link to="" className="about_left_section_header_nav_item">Контакты</Link>
+                        <Link to="/contacts" className="about_left_section_header_nav_item">Контакты</Link>
                     </div>
                     <div className="about_left_section_header_burger">
                         <HeaderBurger />

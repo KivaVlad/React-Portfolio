@@ -1,7 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import heroPhoto from "../../assets/images/photo.jpg";
 import { HeaderBurger } from "../../components/HeaderBurger/HeaderBurger";
-import css from "./homepage.css";
+import "./homepage.scss";
 
 const HomePage = () => {
 
@@ -31,7 +31,7 @@ const HomePage = () => {
                                 <NavLink to="/" className="home_right_section_header_link">Главная</NavLink>
                                 <NavLink to="/about" className="home_right_section_header_link">Обо мне</NavLink>
                                 <NavLink to="/projects" className="home_right_section_header_link">Проекты</NavLink>
-                                <NavLink to="" className="home_right_section_header_link">Контакты</NavLink>
+                                <NavLink to="/contacts" className="home_right_section_header_link">Контакты</NavLink>
                             </div>
                         </div>
                         <div className="home_right_section_main">

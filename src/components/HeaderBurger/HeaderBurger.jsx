@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import css from "./headerBurger.css";
+import "./headerBurger.scss";
 
 export const HeaderBurger = () => {
     let [activeState, setActiveState] = useState(false);
@@ -17,7 +17,7 @@ export const HeaderBurger = () => {
                     <NavLink to="/" onClick={() => setActiveState(activeState = !activeState)} className="header_link">Главная</NavLink>
                     <NavLink to="/about" onClick={() => setActiveState(activeState = !activeState)} className="header_link">Обо мне</NavLink>
                     <NavLink to="/projects" onClick={() => setActiveState(activeState = !activeState)} className="header_link">Проекты</NavLink>
-                    <NavLink to="" onClick={() => setActiveState(activeState = !activeState)} className="header_link">Контакты</NavLink>
+                    <NavLink to="/contacts" onClick={() => setActiveState(activeState = !activeState)} className="header_link">Контакты</NavLink>
                 </div>
                 <div onClick={() => setActiveState(activeState = !activeState)} className='header_nav_close'>
                     <span className='header_nav_close_line'></span>

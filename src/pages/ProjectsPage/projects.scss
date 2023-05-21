@@ -20,10 +20,10 @@
     text-decoration: none;
     color: #102327;
     transition: .2s ease;
-}
 
-.projects_nav_link:hover {
-    opacity: .7;
+    &:hover {
+        opacity: .7;
+    }
 }
 
 .projects_nav_burger {
@@ -74,10 +74,10 @@
     box-shadow: 0 5px 8px rgba(0, 0, 0, .2);
     cursor: pointer;
     transition: .3s ease;
-}
 
-.projects_card:hover{
-    box-shadow: 0 8px 10px rgba(0, 0, 0, .4);
+    &:hover {
+        box-shadow: 0 8px 10px rgba(0, 0, 0, .4);
+    }
 }
 
 .projects_card_img {
@@ -125,11 +125,11 @@
     border: 1px solid #102327;
     border-radius: 10px;
     transition: .2s ease;
-}
 
-.projects_card_button:hover {
-    background-color: #102327;
-    color: #FFFFFF;
+    &:hover{
+        background-color: #102327;
+        color: #FFFFFF;
+    }
 }
 
 .projects_js {
@@ -160,10 +160,10 @@
     box-shadow: 0 5px 8px rgba(0, 0, 0, .2);
     cursor: pointer;
     transition: .3s ease;
-}
 
-.projects_js_card:hover {
-    box-shadow: 4px 6px 8px rgba(0, 0, 0, .4);
+    &:hover {
+        box-shadow: 4px 6px 8px rgba(0, 0, 0, .4);
+    }
 }
 
 .projects_js_card_first {
@@ -202,11 +202,11 @@
     border: 1px solid hsl(225, 33%, 95%);
     border-radius: 10px;
     transition: .2s ease;
-}
 
-.projects_js_card_button:hover {
-    background-color: hsl(225, 33%, 95%);
-    color: #102327;
+    &:hover {
+        background-color: hsl(225, 33%, 95%);
+        color: #102327;
+    }
 }
 
 .projects_footer {
@@ -229,6 +229,11 @@
 
 .projects_footer_icon {
     width: 40px;
+    transition: .2s ease;
+
+    &:hover {
+        transform: rotate(180deg);
+    }
 }
 
 @media screen and (max-width: 1250px){
