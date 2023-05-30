@@ -59,7 +59,7 @@ const Contacts = () => {
                                 </div>
                             </Link>
                         </div>
-                        <Link target='_blank' to="https://disk.yandex.ru/i/haz7WWxvP0g_cA" className='contacts_links'>
+                        <Link target='_blank' to="https://disk.yandex.ru/i/Z_DjVneVES341g" className='contacts_links'>
                             <div className='contacts_cv'>
                                 <img src={cvIcon} alt='cv' />
                                 <h3 className="contacts_cv_title">Резюме</h3>
