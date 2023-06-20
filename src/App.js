@@ -1,10 +1,12 @@
+import { lazy } from "react";
 import { Routes, Route } from "react-router-dom";
 
 import Layout from "./components/Layout/Layout";
-import HomePage from "./pages/HomePage/HomePage";
-import About from "./pages/AboutPage/About";
-import Projects from "./pages/ProjectsPage/Projects";
-import Contacts from "./pages/ContactsPage/Contacts";
+const HomePage = lazy(() => import("./pages/HomePage/HomePage"));
+const About = lazy(() => import("./pages/AboutPage/About"));
+const Projects = lazy(() => import("./pages/ProjectsPage/Projects"));
+const Contacts = lazy(() => import("./pages/ContactsPage/Contacts"));
+
 
 function App() {
   return (

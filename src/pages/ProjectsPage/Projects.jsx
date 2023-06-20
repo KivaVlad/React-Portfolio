@@ -15,6 +15,12 @@ import landing9 from "../../assets/images/landing-9.jpg";
 import landing10 from "../../assets/images/landing-10.jpg";
 import ghIcon from "../../assets/images/icons/github.png";
 
+import htmlIcon from "../../assets/images/icons/html-icon.png";
+import cssIcon from "../../assets/images/icons/css-icon.png";
+import jsIcon from "../../assets/images/icons/js-icon.png";
+import reactIcon from "../../assets/images/icons/react-icon.png";
+import sassIcon from "../../assets/images/icons/sass-icon.png";
+
 const Projects = () => {
 
     return(
@@ -48,7 +54,7 @@ const Projects = () => {
                                         1. Посмотреть оптимальную версию сайта под все устройства.
                                         2. Сократить любой URL.
                                         3. Скопировать укороченную ссылку в буфер обмена в один клик.<br/>
-                                    Реализовано с помощью React.js
+                                    <span className="projects_card_subtitle_icon">Реализовано с помощью: <img src={reactIcon}/><img src={cssIcon}/></span>
                                     </div>
                                 <div className="projects_card_buttons">
                                     <Link target="_blank" to="https://kivavlad.github.io/Shorter-links/" className="projects_card_button">Сайт</Link>
@@ -63,7 +69,14 @@ const Projects = () => {
                             </div>
                             <div className="projects_card_text">
                                 <div className="projects_card_title">RealCo</div>
-                                <div className="projects_card_subtitle">Верстка лендинг страницы по продаже недвижимости. Реализовано с помощью: HTML CSS JavaScript</div>
+                                <div className="projects_card_subtitle">
+                                    Основные задачи: <br/>
+                                    1. Сверстать необходимые части интерфейса.
+                                    2. Адаптировать свёрстанные страницы под мобильную версию.
+                                    3. Добавить бургер-меню для мобильных устройств.
+                                    4. Подключить слайдеры.<br/> 
+                                    <span className="projects_card_subtitle_icon">Реализовано с помощью: <img src={htmlIcon}/><img src={cssIcon}/><img src={jsIcon}/></span>
+                                </div>
                                 <div className="projects_card_buttons">
                                     <Link target="_blank" to="https://kivavlad.github.io/Realco-Landing-page/" className="projects_card_button">Сайт</Link>
                                     <Link target="_blank" to="https://github.com/KivaVlad/Realco-Landing-page" className="projects_card_button">Код</Link>
@@ -77,7 +90,14 @@ const Projects = () => {
                             </div>
                             <div className="projects_card_text">
                                 <div className="projects_card_title">Салон красоты</div>
-                                <div className="projects_card_subtitle">Верстка лендинг страницы салона красоты. Реализовано с помощью: HTML CSS JavaScript</div>
+                                <div className="projects_card_subtitle">
+                                    Основные задачи: <br/>
+                                        1. Сверстать необходимые части интерфейса.
+                                        2. Адаптировать свёрстанные страницы под мобильную версию.
+                                        3. Добавить бургер-меню для мобильных устройств.
+                                        4. Подключить слайдеры.<br/> 
+                                    <span className="projects_card_subtitle_icon">Реализовано с помощью: <img src={htmlIcon}/><img src={cssIcon}/><img src={jsIcon}/></span>
+                                </div>
                                 <div className="projects_card_buttons">
                                     <Link target="_blank" to="https://kivavlad.github.io/Beaty-studio/" className="projects_card_button">Сайт</Link>
                                     <Link target="_blank" to="https://github.com/KivaVlad/Beaty-studio" className="projects_card_button">Код</Link>
@@ -91,7 +111,14 @@ const Projects = () => {
                             </div>
                             <div className="projects_card_text">
                                 <div className="projects_card_title">Discover collection of hoodies</div>
-                                <div className="projects_card_subtitle">Верстка лендинга для бренда одежды. </div>
+                                <div className="projects_card_subtitle">
+                                    Основные задачи: <br/>
+                                        1. Сверстать необходимые части интерфейса.
+                                        2. Адаптировать свёрстанные страницы под мобильную версию.
+                                        3. Добавить бургер-меню для мобильных устройств.
+                                        4. Подключить слайдеры.<br/> 
+                                    <span className="projects_card_subtitle_icon">Реализовано с помощью: <img src={htmlIcon}/><img src={cssIcon}/><img src={jsIcon}/></span>
+                                </div>
                                 <div className="projects_card_buttons">
                                     <Link to="" className="projects_card_button">Сайт</Link>
                                     <Link to="" className="projects_card_button">Код</Link>
@@ -105,7 +132,11 @@ const Projects = () => {
                             </div>
                             <div className="projects_card_text">
                                 <div className="projects_card_title">Сайт портфолио</div>
-                                <div className="projects_card_subtitle">Создание сайта портфолио с индивидуальным дизайном.</div>
+                                <div className="projects_card_subtitle">
+                                    Разработка и создание сайта портфорлио.<br/>
+                                    Сайт написан с помощью React. Разбит на страницы и настроен роутинг с помощью React-Router-Dom. Добавил компонент lazy, для оптимизации производительности.
+                                    <span className="projects_card_subtitle_icon">Реализовано с помощью: <img src={reactIcon}/><img src={sassIcon}/></span>    
+                                </div>
                                 <div className="projects_card_buttons">
                                     <Link target="_blank" to="https://kivavlad.github.io/React-Portfolio/" className="projects_card_button">Сайт</Link>
                                     <Link target="_blank" to="https://github.com/KivaVlad/React-Portfolio" className="projects_card_button">Код</Link>
@@ -125,7 +156,13 @@ const Projects = () => {
                             </div>
                             <div className="projects_card_text">
                                 <div className="projects_card_title">Travel landing page</div>
-                                <div className="projects_card_subtitle">Верстка лендинга сайта про туры в Японию. Реализовано с помощью: HTML CSS JavaScript</div>
+                                <div className="projects_card_subtitle">
+                                    Основные задачи: <br/>
+                                        1. Сверстать необходимые части интерфейса.
+                                        2. Адаптировать свёрстанные страницы под мобильную версию.
+                                        3. Добавить бургер-меню для мобильных устройств.<br/>
+                                    <span className="projects_card_subtitle_icon">Реализовано с помощью: <img src={htmlIcon}/><img src={cssIcon}/><img src={jsIcon}/></span>    
+                                </div>
                                 <div className="projects_card_buttons">
                                     <Link target="_blank" to="https://kivavlad.github.io/Travel-landing-page/" className="projects_card_button">Сайт</Link>
                                     <Link target="_blank" to="https://github.com/KivaVlad/Travel-landing-page" className="projects_card_button">Код</Link>
@@ -139,7 +176,13 @@ const Projects = () => {
                             </div>
                             <div className="projects_card_text">
                                 <div className="projects_card_title">Turnkey Repair</div>
-                                <div className="projects_card_subtitle">Верстка лендинга для оказания услуг ремонта под ключ. Реализовано с помощью: HTML CSS</div>
+                                <div className="projects_card_subtitle">
+                                    Основные задачи: <br/>
+                                        1. Сверстать необходимые части интерфейса.
+                                        2. Адаптировать свёрстанные страницы под мобильную версию.
+                                        3. Добавить бургер-меню для мобильных устройств.<br/>  
+                                    <span className="projects_card_subtitle_icon">Реализовано с помощью: <img src={htmlIcon}/><img src={cssIcon}/></span>
+                                </div>
                                 <div className="projects_card_buttons">
                                     <Link target="_blank" to="https://kivavlad.github.io/landing_design-agency-main/" className="projects_card_button">Сайт</Link>
                                     <Link target="_blank" to="https://github.com/KivaVlad/landing_design-agency-main" className="projects_card_button">Код</Link>
@@ -153,7 +196,15 @@ const Projects = () => {
                             </div>
                             <div className="projects_card_text">
                                 <div className="projects_card_title">Поиск публикаций о компании по его ИНН</div>
-                                <div className="projects_card_subtitle">Компания СКАН разработала новый API для поиска публикаций о компании (юридическом лице) в средствах массовой информации по его ИНН.<br/>Реализовано с помощью React.js</div>
+                                <div className="projects_card_subtitle">
+                                    Основные задачи: <br/>
+                                    1. Сверстать необходимые части интерфейса.
+                                    2. Адаптировать свёрстанные страницы под мобильную версию.
+                                    3. Настроить роутинг и разделение прав: все страницы, кроме главной, должны быть доступны только зарегистрированному пользователю.
+                                    4. Подключить бэкенд-часть к фронтенду, настроить отправку запросов.
+                                    5. Отладить детали для гладкого UX: добавить лоадеры, валидацию форм и оповещения.<br/>
+                                    <span className="projects_card_subtitle_icon">Реализовано с помощью: <img src={reactIcon}/><img src={sassIcon}/></span>
+                                    </div>
                                 <div className="projects_card_buttons">
                                     <Link target="_blank" to="https://kivavlad.github.io/Scan-service/" className="projects_card_button">Сайт</Link>
                                     <Link target="_blank" to="https://github.com/KivaVlad/Scan-service" className="projects_card_button">Код</Link>
@@ -167,7 +218,13 @@ const Projects = () => {
                             </div>
                             <div className="projects_card_text">
                                 <div className="projects_card_title">ДОМ ЛУЧШЕЙ ЕДЫ</div>
-                                <div className="projects_card_subtitle">Верстка лендинга для ресторана. <br/>Реализовано с помощью: HTML CSS</div>
+                                <div className="projects_card_subtitle">
+                                    Основные задачи: <br/>
+                                        1. Сверстать необходимые части интерфейса.
+                                        2. Адаптировать свёрстанные страницы под мобильную версию.
+                                        3. Добавить бургер-меню для мобильных устройств.<br/> 
+                                    <span className="projects_card_subtitle_icon">Реализовано с помощью: <img src={htmlIcon}/><img src={cssIcon}/></span>
+                                </div>
                                 <div className="projects_card_buttons">
                                     <Link target="_blank" to="https://kivavlad.github.io/Restaurant-landing-page/" className="projects_card_button">Сайт</Link>
                                     <Link target="_blank" to="https://github.com/KivaVlad/Restaurant-landing-page" className="projects_card_button">Код</Link>
@@ -181,7 +238,14 @@ const Projects = () => {
                             </div>
                             <div className="projects_card_text">
                                 <div className="projects_card_title">NFT Landing page</div>
-                                <div className="projects_card_subtitle">Верстка лендинг страницы для продаж NFT. Реализовано с помощью: Gulp Scss JavaScript</div>
+                                <div className="projects_card_subtitle">
+                                    Основные задачи: <br/>
+                                        1. Сверстать необходимые части интерфейса.
+                                        2. Адаптировать свёрстанные страницы под мобильную версию.
+                                        3. Добавить бургер-меню для мобильных устройств.
+                                        4. Подключить слайдеры.<br/>  
+                                    <span className="projects_card_subtitle_icon">Реализовано с помощью: <img src={htmlIcon}/><img src={sassIcon}/><img src={jsIcon}/></span>
+                                </div>
                                 <div className="projects_card_buttons">
                                     <Link target="_blank" to="https://kivavlad.github.io/KivaVladNFT-Dark-Responsive-Landing-page/" className="projects_card_button">Сайт</Link>
                                     <Link target="_blank" to="https://github.com/KivaVlad/KivaVladNFT-Dark-Responsive-Landing-page" className="projects_card_button">Код</Link>
