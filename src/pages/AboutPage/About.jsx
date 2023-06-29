@@ -98,7 +98,6 @@ const About = () => {
                                 <div className="skills_subtitle">
                                     - Опыт работы с Axios, Redux, REST API;<br/>
                                     - Опыт работы с библиотеками React (react-router-dom, react-hook-form, react-framer-motion и др)<br/>
-                                    - Знание основных принципов проектирования пользовательских интерфейсов;<br/>
                                     - Стремление к самообразованию и развитию профессиональных навыков;<br/>
                                 </div>
                             </div>
