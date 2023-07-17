@@ -11,7 +11,6 @@ import jsIcon from "../../assets/images/icons/js-icon.png";
 import reactIcon from "../../assets/images/icons/react-icon.png";
 import sassIcon from "../../assets/images/icons/sass-icon.png";
 import gitIcon from "../../assets/images/icons/git-icon.png";
-import cvIcom from "../../assets/images/icons/cv.png";
 
 
 const About = () => {
@@ -77,8 +76,8 @@ const About = () => {
                         <div className="about_main_task">
                             <div className={about ? "main_task_about_active" : "main_task_about"}>
                                 <div className="about_subtitle">
-                                    Я - начинающий и амбициозный фронтенд разработчик. Мои знания и опыт позволяют мне успешно решать сложные задачи и создавать качественные продукты.<br/>
-                                    Я использую современные технологии HTML, CSS3, JavaScript и React.<br/><br/>
+                                    Я - амбициозный фронтенд разработчик, который стремится стать профессионалом в своей области.  Я увлечен созданием красивого и функционального пользовательского интерфейса, который позволяет пользователям легко и быстро взаимодействовать с веб-приложениями.<br/>
+                                    Мой опыт работы включает в себя работу с HTML, CSS и JavaScript, а также использование библиотеки React. Я также имею опыт работы с такими инструментами, как Git, GitHub, GitLab.<br/>
                                     Моя цель - развиваться и улучшать свои навыки, чтобы стать профессионалом в своей области и создавать продукты, которые будут полезны для пользователей.<br/>
                                     Я готов работать в команде и брать на себя ответственность за свои проекты. Если вы ищете талантливого сотрудника, который готов к новым вызовам и развитию, то я рад присоединиться к вашей команде.
                                 </div>
@@ -87,12 +86,12 @@ const About = () => {
                             <div className={skills ? "main_task_skills_active" : "main_task_skills"}>
                                 <div className="skills_title">Основные навыки:</div>
                                 <div className="about_skills_container">
-                                    <div className="skills_span_container"><img src={htmlIcon}/> <span>HTML5</span></div>
-                                    <div className="skills_span_container"><img src={cssIcon}/> <span>CSS3</span></div>
-                                    <div className="skills_span_container"><img src={jsIcon}/> <span>JavaScript</span></div>
-                                    <div className="skills_span_container"><img src={reactIcon}/> <span>React.js</span></div>
-                                    <div className="skills_span_container"><img src={sassIcon}/> <span>Sass. Scss</span></div>
-                                    <div className="skills_span_container"><img src={gitIcon}/> <span>Git. GitHub</span></div>
+                                    <div className="skills_span_container"><img src={htmlIcon} alt="i"/> <span>HTML5</span></div>
+                                    <div className="skills_span_container"><img src={cssIcon} alt="i"/> <span>CSS3</span></div>
+                                    <div className="skills_span_container"><img src={jsIcon} alt="i"/> <span>JavaScript</span></div>
+                                    <div className="skills_span_container"><img src={reactIcon} alt="i"/> <span>React.js</span></div>
+                                    <div className="skills_span_container"><img src={sassIcon} alt="i"/> <span>Sass. Scss</span></div>
+                                    <div className="skills_span_container"><img src={gitIcon} alt="i"/> <span>Git. GitHub</span></div>
                                 </div>
                                 <div className="skills_title">Дополнительно:</div>
                                 <div className="skills_subtitle">
