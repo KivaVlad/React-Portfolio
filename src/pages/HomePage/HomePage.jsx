@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import heroPhoto from "../../assets/images/photo.jpg";
+import myPhoto from "../../assets/images/my-photo.jpg";
 import { HeaderBurger } from "../../components/HeaderBurger/HeaderBurger";
 import "./homepage.scss";
 
@@ -36,7 +36,7 @@ const HomePage = () => {
                         </div>
                         <div className="home_right_section_main">
                             <div className="home_right_section_photo">
-                                <img src={heroPhoto} className="home_right_section_image"/>
+                                <img src={myPhoto} className="home_right_section_image"/>
                             </div>
                         </div>
                     </div>
