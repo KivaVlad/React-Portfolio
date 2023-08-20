@@ -110,18 +110,20 @@ const Projects = () => {
                                 <img src={landing10} className="projects_image" alt="img"/>
                             </div>
                             <div className="projects_card_text">
-                                <div className="projects_card_title">Discover collection of hoodies</div>
+                                <div className="projects_card_title">Личный кабинет организации</div>
                                 <div className="projects_card_subtitle">
                                     Основные задачи: <br/>
-                                        1. Сверстать необходимые части интерфейса.
-                                        2. Адаптировать свёрстанные страницы под мобильную версию.
-                                        3. Добавить бургер-меню для мобильных устройств.
-                                        4. Подключить слайдеры.<br/> 
-                                    <span className="projects_card_subtitle_icon">Реализовано с помощью: <img src={htmlIcon}/><img src={cssIcon}/><img src={jsIcon}/></span>
+                                    1. войти в ЛК; 
+                                    2. создавать посты; 
+                                    3. опубликовать созданный пост; 
+                                    4. сохранить пост в черновики, для дальнейшей работой с редактированием; 
+                                    5. видеть список созданных постов, которые хранятся в разных разделах; 
+                                    6. редактировать/удалять посты; 
+                                    <span className="projects_card_subtitle_icon">Реализовано с помощью: <img src={reactIcon}/><img src={jsIcon}/><img src={sassIcon}/></span>
                                 </div>
                                 <div className="projects_card_buttons">
-                                    <Link to="" className="projects_card_button">Сайт</Link>
-                                    <Link to="" className="projects_card_button">Код</Link>
+                                    <Link target="_blank" to="https://disk.yandex.ru/i/pmzR23ykRQYLPg" className="projects_card_button">Сайт</Link>
+                                    <Link target="_blank" to="https://disk.yandex.ru/i/pmzR23ykRQYLPg" className="projects_card_button">Код</Link>
                                 </div>
                             </div>
                         </div>
