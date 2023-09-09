@@ -96,8 +96,8 @@ const About = () => {
                                 </div>
                                 <div className="skills_title">Дополнительно:</div>
                                 <div className="skills_subtitle">
-                                    - Опыт работы с Axios, Redux, REST API;<br/>
-                                    - Опыт работы с библиотеками React (react-router-dom, react-hook-form, react-framer-motion и др)<br/>
+                                    - Работа с менеджерами состояния приложения React Query, Redux Toolkit;<br/>
+                                    - Подключение фронт части к бэкенду. Работа со Swagger, REST API<br/>
                                     - Стремление к самообразованию и развитию профессиональных навыков;<br/>
                                 </div>
                             </div>
@@ -108,7 +108,7 @@ const About = () => {
                                     <div className="skillseducation_subtitle">
                                         <span>Специализация:</span> Frontend разработчик<br/>
                                         <span>Период обучения:</span> 26.09.2022 - 14.06.2023<br/>
-                                        <span>Изучил:</span> HTML5, CSS3, JavaScript, Git, GitHub, npm, Gulp, Sass, Scss, React.js<br/>
+                                        <span>Изучил:</span> HTML5, CSS3, JavaScript, React.js, Git <br/>
                                         <span>Сертификат:</span> <Link target="blank" to="https://disk.yandex.ru/i/1VTKxMfmIF6sJA"> Открыть</Link>
                                     </div>
                                 </div>
