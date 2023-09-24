@@ -175,17 +175,17 @@ const Projects = () => {
                                 <img src={landing5} className="projects_image" alt="img"/>
                             </div>
                             <div className="projects_card_text">
-                                <div className="projects_card_title">Turnkey Repair</div>
+                                <div className="projects_card_title">GitHub User Finder</div>
                                 <div className="projects_card_subtitle">
                                     Основные задачи: <br/>
                                         1. Сверстать необходимые части интерфейса.
-                                        2. Адаптировать свёрстанные страницы под мобильную версию.
-                                        3. Добавить бургер-меню для мобильных устройств.<br/>  
-                                    <span className="projects_card_subtitle_icon">Реализовано с помощью: <img src={htmlIcon}/><img src={cssIcon}/></span>
+                                        2. По введенной подстроке производится поиск пользователей GitHub;
+                                        3. Добавить возможность переключения с темной на светлую тему в приложении;<br/>  
+                                    <span className="projects_card_subtitle_icon">Реализовано с помощью: <img src={reactIcon} alt=""/><img src={jsIcon} alt=""/><img src={sassIcon} alt="" /></span>
                                 </div>
                                 <div className="projects_card_buttons">
-                                    <Link target="_blank" to="https://kivavlad.github.io/Turnkey-Repair-Landing-page/" className="projects_card_button">Сайт</Link>
-                                    <Link target="_blank" to="https://github.com/KivaVlad/Turnkey-Repair-Landing-page" className="projects_card_button">Код</Link>
+                                    <Link target="_blank" to="https://kivavlad.github.io/Devfinder/" className="projects_card_button">Сайт</Link>
+                                    <Link target="_blank" to="https://github.com/KivaVlad/Devfinder" className="projects_card_button">Код</Link>
                                 </div>
                             </div>
                         </div>
