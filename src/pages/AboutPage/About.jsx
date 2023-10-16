@@ -77,9 +77,9 @@ const About = () => {
                             <div className={about ? "main_task_about_active" : "main_task_about"}>
                                 <div className="about_subtitle">
                                     Я увлечен созданием красивого и функционального пользовательского интерфейса, который позволяет пользователям легко и быстро взаимодействовать с веб-приложениями.<br/><br/>
-                                    Знание основных принципов проектирования пользовательских интерфейсов;<br/>
-                                    Умение работать в команде и общаться с коллегами;<br/>
-                                    Стремление к самообразованию и развитию профессиональных навыков;<br/><br/>
+                                    Знанию основные принципы проектирования пользовательских интерфейсов;<br/>
+                                    Умею работать в команде и общаться с коллегами;<br/>
+                                    Стремлюсь к самообразованию и развитию профессиональных навыков;<br/><br/>
                                     Моя цель - развиваться и улучшать свои навыки, чтобы стать профессионалом в своей области и создавать продукты, которые будут полезны для пользователей.<br/>
                                 </div>
                             </div>
@@ -92,7 +92,7 @@ const About = () => {
                                     <div className="skills_span_container"><img src={jsIcon} alt="i"/> <span>JavaScript</span></div>
                                     <div className="skills_span_container"><img src={reactIcon} alt="i"/> <span>React.js</span></div>
                                     <div className="skills_span_container"><img src={sassIcon} alt="i"/> <span>Sass. Scss</span></div>
-                                    <div className="skills_span_container"><img src={gitIcon} alt="i"/> <span>Git. GitHub</span></div>
+                                    <div className="skills_span_container"><img src={gitIcon} alt="i"/> <span>Git</span></div>
                                 </div>
                                 <div className="skills_title">Дополнительно:</div>
                                 <div className="skills_subtitle">
@@ -104,12 +104,25 @@ const About = () => {
 
                             <div className={education ? "main_task_education_active" : "main_task_education"}>
                                 <div className="education_container">
-                                    <div className="skills_title">SkillFactory</div>
-                                    <div className="skillseducation_subtitle">
-                                        <span>Специализация:</span> Frontend разработчик<br/>
-                                        <span>Период обучения:</span> 26.09.2022 - 14.06.2023<br/>
-                                        <span>Изучил:</span> HTML5, CSS3, JavaScript, React.js, Git <br/>
-                                        <span>Сертификат:</span> <Link target="blank" to="https://disk.yandex.ru/i/1VTKxMfmIF6sJA"> Открыть</Link>
+                                    <div>
+                                        <div className="skills_title">SkillFactory</div>
+                                        <div className="skillseducation_subtitle">
+                                            <span>Специализация:</span> Frontend разработчик<br/>
+                                            <span>Период обучения:</span> 26.09.2022 - 14.06.2023<br/>
+                                            <span>Полученные навыки:</span> HTML5, CSS3, JavaScript, React.js, Git <br/>
+                                            <span>Сертификат:</span> <Link target="blank" to="https://disk.yandex.ru/i/1VTKxMfmIF6sJA"> Открыть</Link>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div className="skills_title">Stepic</div>
+                                        <div className="skillseducation_subtitle">
+                                            <span>Курс:</span> Фундаментальный JavaScript<br/>
+                                            <span>Автор курса:</span> Михаил Непомнящий<br/>
+                                            <span>Период обучения:</span> Октябрь 2023<br/>
+                                            <span>Полученные навыки:</span>  JavaScript<br/>
+                                            <span>Сертификат:</span> <Link target="blank" to="https://disk.yandex.ru/i/iNVLEZW0WbOf2A"> Открыть</Link>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

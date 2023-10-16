@@ -122,8 +122,8 @@ const Projects = () => {
                                     <span className="projects_card_subtitle_icon">Реализовано с помощью: <img src={reactIcon}/><img src={jsIcon}/><img src={sassIcon}/></span>
                                 </div>
                                 <div className="projects_card_buttons">
-                                    <Link target="_blank" to="https://disk.yandex.ru/i/pmzR23ykRQYLPg" className="projects_card_button">Сайт</Link>
-                                    <Link target="_blank" to="https://disk.yandex.ru/i/pmzR23ykRQYLPg" className="projects_card_button">Код</Link>
+                                    <Link target="_blank" to="https://disk.yandex.ru/i/ALXIJDC7om9mJA" className="projects_card_button">Сайт</Link>
+                                    <Link target="_blank" to="https://disk.yandex.ru/i/ALXIJDC7om9mJA" className="projects_card_button">Код</Link>
                                 </div>
                             </div>
                         </div>
