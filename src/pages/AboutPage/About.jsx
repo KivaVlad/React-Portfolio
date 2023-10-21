@@ -115,7 +115,7 @@ const About = () => {
                                     </div>
 
                                     <div>
-                                        <div className="skills_title">Stepic</div>
+                                        <div className="skills_title">Stepik</div>
                                         <div className="skillseducation_subtitle">
                                             <span>Курс:</span> Фундаментальный JavaScript<br/>
                                             <span>Автор курса:</span> Михаил Непомнящий<br/>
